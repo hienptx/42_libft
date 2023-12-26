@@ -14,7 +14,7 @@
 
 int	ft_isalpha(int x)
 {
-	if (!((65 <= x && x <= 90) || (97 <= x && x <= 122)))
+	if (!(('A' <= x && x <= 'Z') || ('a' <= x && x <= 'z')))
 		return (0);
 	return (1);
 }
